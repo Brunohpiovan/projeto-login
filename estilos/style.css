@@ -73,13 +73,14 @@ div.campo > span{
 div.campo > input{
     background-color: black;
     width: calc(100% - 44px);
-    transform: translateY(-22px);
+    transform: translateY(-12px);
     color: #C9C8D0;
     font-size: 1em;
     height: 100%;
     border-radius: 8px;
     padding: 4px;
     border: none;
+    display: inline;
 }
 div.campo > input:focus-within{
     background-color: #dfdee21e;
