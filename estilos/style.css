@@ -65,10 +65,30 @@ div#formulario > p{
 div.campo> label{
     display: none;
 }
+div.campo > span{
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+div.campo > input{
+    background-color: black;
+    width: calc(100% - 44px);
+    transform: translateY(-12px);
+    color: #C9C8D0;
+    font-size: 1em;
+    height: 100%;
+    border-radius: 8px;
+    padding: 4px;
+    border: none;
+}
+div.campo > input:focus-within{
+    background-color: #dfdee21e;
+    color: white;
+}
 form > div.campo{
     background-color: black;
     color: white;
-    border: 1px solid white;
+    border: 2px solid white;
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
