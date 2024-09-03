@@ -68,10 +68,10 @@ div.campo> label{
 div.campo > span{
     font-size: 2em;
     width: 40px;
-    padding: 5px;
+    padding: 4px;
 }
 div.campo > input{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     width: calc(100% - 44px);
     transform: translateY(-13px);
     color: #C9C8D0;
